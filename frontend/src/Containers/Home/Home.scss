@@ -1,0 +1,124 @@
+.search_bar_div{
+    box-shadow: 0 5px 12px rgba(35,0,77,.2);
+    margin: 10px;
+    text-align: right;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    
+    .logout_btn{
+        display: inline-block;
+        background-color: rgb(215, 215, 215);
+        border-radius: 8px;
+        padding: 3px 7px;
+        color: var(--first-color) ;
+        font-weight: 500;
+        margin-right: 20px;
+        a{
+        text-decoration: none !important;}
+        cursor: pointer;
+    }
+}
+
+.search_songs_div{
+   margin-left: 30px;
+}
+
+.search_songs{
+    padding: 3px;
+}
+
+.playlist{
+    overflow: auto;
+   height: 85vh;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   box-shadow: 0 8px 20px rgba(35,0,77,.2); 
+   border-radius: 8px;
+} 
+
+.main_space{
+   height: 81vh;
+   box-shadow: 0 8px 20px rgba(35,0,77,.2); 
+   border-radius: 8px;
+}
+
+
+.main_containner{
+    padding: 0 20px;
+}
+.main_space{
+    display: block;
+    overflow:scroll;
+}
+
+.recomended_btn_con{
+    display:flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    p{
+        color: var(--first-color-dark);
+        margin: 0 20px 0 0;
+    }
+    .recomended_btn{
+        padding: 2px 5px ;
+        margin-right: 13px;
+        border-radius: 5px;
+        font-size: 15px;
+        color: white;
+        cursor:pointer;
+        background-color:var(--first-color-dark);
+    }
+}
+.playlist_selected{
+    background-color: rgb(3, 0, 180) !important;
+}
+.playlist_name{
+
+    padding:2px 5px !important;
+    margin: 15px 0px 0 10px;
+    width: 50% !important;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgb(59, 119, 0);
+
+    svg{
+        padding: 1px;
+        margin-left: 20px;
+        margin-bottom: 3px;
+        border-radius: 1px;
+        &:hover{
+            color: rgb(255, 255, 0);
+        }
+    }
+}
+.play_btn_con{
+    width: 100%;
+}
+.add_btn{
+   font-size: 17px;
+   color: rgb(109, 0, 173);
+   margin-left: 20px;
+   cursor: pointer;
+   &:hover{
+    color: black;
+   }
+}
+
+.create_playlist{
+   background-color: rgb(0, 13, 152);
+   margin-left: 10px;
+   font-size: 12px;
+   text-align: center;
+   color: white;
+   padding: 2px 10px;
+   margin-top: 30px;
+   font-weight: 500;
+   border-radius: 7px;
+   cursor: pointer;
+}

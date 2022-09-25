@@ -1,0 +1,77 @@
+.Gerners_names_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    .genres_btn{
+        padding: 8px !important;
+
+        button{
+            font-size: 12px;
+            margin: 0;
+            display: inline-block;
+            padding: 5px;
+            display: flex;
+            height: auto;
+            width: auto;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+
+}
+
+.artist_con{
+    display: flex;
+    flex-direction: column;
+}
+
+.artist_search_bar{
+    display: flex;
+    width: 330px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    .artist_search_bar_pl{
+        width: 100%;
+        padding: 3px;
+        margin-top: 10px;
+    }
+}
+
+.artist_dropdown{
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    div{
+        margin: 5px 15px;
+        padding: 5px;
+        font-size: 12px;
+        display: inline-block;
+        font-weight: 600;
+        background-color: #eee;
+        border-radius: 8px;
+        &:hover{
+            background-color: rgb(246, 255, 0) ;
+        }
+    }
+}
+.prefrences_form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.prefrences_block{
+    max-width: 350px; 
+}
+
+.pref_select{
+    margin-bottom: 10px;
+}
